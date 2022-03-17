@@ -16,7 +16,7 @@
 // with the array index of your query.
 // 
 // For example, an array containing [2,4,6,8], searching for '4', will return
-// an id of '2', even if your table's id column for that row is, say `100`.
+// an id of '2', even if your table's id column for that row is, say `100`. 
 // 
 // To get the original rowid, you must explicitly query for it. For example:
 //    SELECT $tableName.id as rowid, $tableName.*, *
