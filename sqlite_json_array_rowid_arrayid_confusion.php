@@ -1,5 +1,4 @@
 <?php
-
 //
 // This demonstrates how json_each() will overwrite a resulting row's 
 // `id` column, and how to retrieve the actual rowid.
