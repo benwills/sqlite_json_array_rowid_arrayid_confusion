@@ -56,7 +56,7 @@ if (!file_exists($dbFileName)) {
 		//
 		// The lesson here is that duplicate array values can return duplicate rows.
 		//
-		// array_unique($entries);
+		// $entries = array_unique($entries);
 		//
 		$row = json_encode($entries);
 		while (1) {
